@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    padding: 0;
     display: inline;
     background-color: darkslategrey;
 }
@@ -53,4 +54,23 @@ button{
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     border-right-width: 3px;
+}
+
+#hero{
+    display:flex;
+    height: 90vh;
+    width: 100vw;
+    overflow-x: scroll;
+    
+}
+.column{
+    padding: 0 4px;
+    width: 100vw;
+    flex: 10%;
+    
+}
+
+.hero-image{
+    height: 100%;
+
 }
